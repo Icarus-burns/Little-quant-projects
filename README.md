@@ -28,7 +28,7 @@ left skew (SPY, NVDA) and right smirk (MSTR, driven by Bitcoin jump risk). Compa
 traded option prices against BS predictions using spot price, strike, expiry, implied 
 vol, dividend yield, and a treasury-derived interest rate. 
 
-![Right smirk](Images/MSTR.png)
+![Right smirk](Images/MSTR_clean.png)
 
 Lastly, generated a cute 
 implied volatility surface from expiry and strike using SPY, which required significant 
