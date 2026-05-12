@@ -43,7 +43,7 @@ Simulates the canonical delta hedging strategy for a European call option under 
 ![Hedged vs Unhedged PnL](<Hedged vs Unhedged PnL.png>)
 
 
-## 5. Heston model simulations
-Simulates stock behaviour with the Heston model, which can be used to extract an implied volatility. Tuning the imput parameters (in partiuclar, ξ and ρ) changes the smile shape, which matches the behaviour I observed in project [3](gen_Implied_vol.ipynb). Results are compared to my BS implementation [2](BS_MC.ipynb), which itself cannot incorporate stochastic variance, and thus doesn't generate the same smile behaviour. 
+## [5. Heston model simulations](Heston model.ipynb)
+Simulates stock behaviour with the Heston model, which can be used to extract an implied volatility. Tuning the input parameters (in particular, ξ and ρ) changes the smile shape, which matches the behaviour I observed in project [3](gen_Implied_vol.ipynb) - positive correlation leads to a right smirk (MSTR), while negative leads to left (SPY). Results are compared to my BS implementation [2](BS_MC.ipynb), which itself cannot incorporate stochastic variance, and thus doesn't generate the same smile behaviour. 
 
 ![Heston smiles](<Heston smiles.png>)
